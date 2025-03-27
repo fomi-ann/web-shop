@@ -84,6 +84,10 @@ html {
 
 .overlay-article { 
     transition: background-color 0.3s ease;
+}
+
+.overlay-article .card-title,
+.overlay-article .card-text {
     color: white !important;
 }
 
