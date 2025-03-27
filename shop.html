@@ -4,8 +4,415 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 <body>
+    <header class="bg-body-tertiary w-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><strong>LUNABHUMI</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
     
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+    
+                  </ul>
+    
+                    <div class="me-3">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <ul class="d-flex align-items-center">
+                    <li><a class="text-dark me-3" href="login.html"><i class="bi bi-person fs-3"></i></a></li>
+                    <li><a class="text-dark me-3" href="#"><i class="bi bi-suit-heart fs-4"></i></a></li>
+                    <li><a class="text-dark" href="#"><i class="bi bi-bag fs-4"></i></a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <section>
+        <div class="text-center p-2 banner">
+          <h4>Let's celebrate spring together!</h4>
+          <p>Get 10% OFF on all products! Use code: SUNSHINE10</p>
+          <p>Don't miss out - grab your gear today!</p>
+        </div>
+  
+    </section>
+
+    <div class="container-xxl">
+
+        <section class="my-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4 mb-5" onclick="window.location.href='#'">
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative">
+                    
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-1.jpg" class="card-img-top-main" alt="Green yoga mat">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Aurora Mat</h5>
+                            <h6>€49.99</h6>
+                            <p class="card-text text-body-secondary">
+                                Find your flow with the Aurora Mat - lightweight, durable, and anti-slip for every pose.
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-2.jpg" class="card-img-top-main" alt="Green marble waights">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Stone Flow Weights</h5>
+                            <h6>€39.99</h6>
+                            <p class="card-text text-body-secondary">
+                                These concrete weights have a raw, natural feel - perfect for adding some extra resistance to your workouts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-3.jpg" class="card-img-top-main" alt="Candle">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Bloom Flame Scented Candle</h5>
+                            <h6>€19.99</h6>
+                            <p class="card-text text-body-secondary">
+                                A fresh, floral-scented candle that brings a bit of spring into your space.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-4.jpg" class="card-img-top-main" alt="Soap bar">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Herbal Glow Bar</h5>
+                            <h6>€7.99</h6>
+                            <p class="card-text text-body-secondary">
+                                Infused with botanical extracts and earthy greens, this gentle soap cleanses while bringing a touch of spring to your daily ritual.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row row-cols-1 row-cols-md-4 g-4 mb-5" onclick="window.location.href='#'">
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative">
+                    
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-5.jpg" class="card-img-top-main" alt="Green yoga mat">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Luna Bowl</h5>
+                            <h6>€49.99 - €129.99</h6>
+                            <p class="card-text text-body-secondary">
+                                A smooth, white singing bowl that hums with calming energy. Perfect for meditation, breathwork, or just creating a moment of peace in your day.
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-6.jpg" class="card-img-top-main" alt="Green marble waights">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Earth Lather Bar Soap Set</h5>
+                            <h6>€24.99</h6>
+                            <p class="card-text text-body-secondary">
+                                A collection of all-natural soap bars, packed with skin-loving ingredients. No harsh stuff—just fresh, clean scents and a gentle lather that leaves you feeling refreshed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-7.jpg" class="card-img-top-main" alt="Candle">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Sky Flow Hammock</h5>
+                            <h6>€119.99</h6>
+                            <p class="card-text text-body-secondary">
+                                Soft yet strong fabric that lets you stretch, float, and build strength in the air. Secure, breathable, and perfect for deepening your practice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-8.jpg" class="card-img-top-main" alt="Soap bar">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Thorn Mat</h5>
+                            <h6>€39.99</h6>
+                            <p class="card-text text-body-secondary">
+                                Not your average mat - this acupressure pad is covered in tiny spikes to boost circulation and melt away tension. Lay back, breathe, and feel the stress fade.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row row-cols-1 row-cols-md-4 g-4 mb-5" onclick="window.location.href='#'">
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative">
+                        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+            
+                        <img src="images/spring-9.jpg" class="card-img-top-main" alt="Green yoga mat">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Cloud Mat</h5>
+                            <h6>€69.99</h6>
+                            <p class="card-text text-body-secondary">
+                                A creamy white yoga mat that’s as soft as it looks. Anti-slip, lightweight, and durable—ideal for grounding your practice while keeping things light and airy.
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+            
+                        <img src="images/spring-10.jpg" class="card-img-top-main" alt="Green marble waights">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Stone Flow Weights</h5>
+                            <h6>€89.99</h6>
+                            <p class="card-text text-body-secondary">
+                                Solid, raw, and naturally strong. These concrete-finished weights in warm red and neutral tones add resistance to your flow—without compromising on style.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-12.jpg" class="card-img-top-main" alt="Candle">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Drift Roller</h5>
+                            <h6>€34.99</h6>
+                            <p class="card-text text-body-secondary">
+                                A sleek white massage roller designed to smooth out sore muscles. Firm yet gentle, it helps you recover, release tension, and get back to your flow.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card card-shop-item h-100 border-0 rounded-0 position-relative" onclick="window.location.href='#'">
+        
+                        <div class="position-absolute top-0 end-0 favorite-box">
+                            <a href=""> 
+                                <i class="bi fs-4 bi-suit-heart"></i>
+                            </a>
+                        </div>
+        
+                        <img src="images/spring-11.jpg" class="card-img-top-main" alt="Soap bar">
+                        <div class="card-body pt-0">
+                            <h5 class="card-title">Stone Flow Weights</h5>
+                            <h6>€89.99</h6>
+                            <p class="card-text text-body-secondary">
+                                Solid, raw, and naturally strong. These concrete-finished weights in warm red and neutral tones add resistance to your flow—without compromising on style.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </div>
+
+    <div class="d-flex justify-content-center my-4">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li class=""><a class="page-link border-0" href="">Previous</a></li>
+                <li class=""><a class="page-link border-0" href="">1</a></li>
+                <li class=""><a class="page-link border-0" href="">2</a></li>
+                <li class=""><a class="page-link border-0" href="">3</a></li>
+                <li class=""><a class="page-link border-0" href="">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted"> 
+        <section class="border-bottom">
+          <div class="container">
+            <form action="">
+              <div class="row d-flex justify-content-center align-items-center p-5">
+    
+                <div class="col-md-4 text-center">
+                  <p>Sign up for our newsletter and get 20% off your next purchase</p>
+                </div>
+    
+                <div class="col-md-4">
+                  <div class="form-outline">
+                    <input type="email" class="form-control" placeholder="Enter your email"/>
+                    <label class="form-label"></label>
+                  </div>
+                </div>
+    
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-secondary mb-4">
+                    Subscribe
+                  </button>
+                </div>
+    
+              </div>
+            </form>
+          </div>
+        </section>
+    
+        <section class="border-bottom">
+          <div class="container d-flex justify-content-center justify-content-lg-between p-4">
+            <div class="me-5 d-none d-lg-block">
+              <span>Get connected with us on social networks:</span>
+            </div>
+            <div>
+              <a href="" class="me-4">
+                <i class="bi bi-instagram fs-4"></i>
+              </a>
+              <a href="" class="me-4">
+                <i class="bi bi-facebook fs-4"></i>
+              </a>
+              <a href="" class="me-4">
+                <i class="bi bi-twitter-x fs-4"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+    
+        <section>
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6><strong>LUNABHUMI</strong></h6>
+    
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6>Our payment options:</h6>
+                <p class="payment-options">
+                  <img src="images/payment/visa.jpg" alt="Visa logo">
+                  <img src="images/payment/mastercard.jpg" alt="mastercard logo">
+                  <img src="images/payment/paypal.png" alt="paypal logo">
+                </p>
+                <h6>Our partners:</h6>
+                <p class="payment-options">
+                  <img src="images/partners/dpd.png" alt="DPD logo">
+                  <img src="images/partners/omniva.png" alt="Omniva logo">
+    
+                </p>
+              </div>
+    
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6>Useful links</h6>
+                <p><a href="contact.html">Contact</a></p>
+                <p><a href="shop.html">Shop</a></p>
+                <p><a href="blog.html">Blog</a></p>
+              </div>
+    
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    
+                <a href="contact.html"><h6>Contact</h6></a>
+                <p><i class="bi bi-geo-alt"></i> Tallinn, Sõpruse pst 182, 13424</p>
+                <p><i class="bi bi-envelope"></i> info@lunabhumi.com</p>
+                <p><i class="bi bi-telephone"></i> +372 123 456 789</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2025 Copyright: LUNABHUMI
+        </div>
+    
+    </footer>
 </body>
 </html>

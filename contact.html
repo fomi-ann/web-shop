@@ -4,8 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 <body>
+    <header class="bg-body-tertiary w-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><strong>LUNABHUMI</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
     
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+    
+                  </ul>
+    
+                    <div class="me-3">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <ul class="d-flex align-items-center">
+                    <li><a class="text-dark me-3" href="login.html"><i class="bi bi-person fs-3"></i></a></li>
+                    <li><a class="text-dark me-3" href="#"><i class="bi bi-suit-heart fs-4"></i></a></li>
+                    <li><a class="text-dark" href="#"><i class="bi bi-bag fs-4"></i></a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <div class="container-xxl">
+        <section class="row w-100">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1092.3867357147178!2d24.70523185071778!3d59.41194853548573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469294f1a4e63ef1%3A0x28b0f4987b15830a!2sS%C3%B5pruse%20pst%2C%2013424%20Tallinn!5e1!3m2!1sen!2see!4v1738840021432!5m2!1sen!2see" 
+                width="100%"
+                height="200px";
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <div class="row">
+            <address class="d-flex justify-content-evenly w-100 my-4">
+                <p><i class="bi bi-geo-alt"></i> Tallinn, Sõpruse pst 182, 13424</p>
+                <p><i class="bi bi-envelope"></i> info@lunabhumi.com</p>
+                <p><i class="bi bi-telephone"></i> +372 123 456 789</p>
+            </address>
+        </div>
+    
+        <section class="row mb-5">
+            <div class="text-center mt-4">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center mb-4">
+                <div class="card contact-card w-50 rounded-0 h-100 d-flex flex-column">
+                    <div class="card-body">
+                        <form style="width: 100%;">
+                            <!-- Name input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form4Example1">Full Name</label>
+                                <input type="text" id="form4Example1" class="form-control" />
+                            </div>
+            
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form4Example2">Email address</label>
+                                <input type="email" id="form4Example2" class="form-control" />
+                            </div>
+            
+                            <!-- Message input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="form4Example3">Message</label>
+                                <textarea class="form-control" id="form4Example3" rows="3" style="resize: none;"></textarea>
+                            </div>
+            
+                            <!-- Submit button -->
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-outline-secondary w-100">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted"> 
+        <section class="border-bottom">
+          <div class="container">
+            <form action="">
+              <div class="row d-flex justify-content-center align-items-center p-5">
+    
+                <div class="col-md-4 text-center">
+                  <p>Sign up for our newsletter and get 20% off your next purchase</p>
+                </div>
+    
+                <div class="col-md-4">
+                  <div class="form-outline">
+                    <input type="email" class="form-control" placeholder="Enter your email"/>
+                    <label class="form-label"></label>
+                  </div>
+                </div>
+    
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-secondary mb-4">
+                    Subscribe
+                  </button>
+                </div>
+    
+              </div>
+            </form>
+          </div>
+        </section>
+    
+        <section class="border-bottom">
+          <div class="container d-flex justify-content-center justify-content-lg-between p-4">
+            <div class="me-5 d-none d-lg-block">
+              <span>Get connected with us on social networks:</span>
+            </div>
+            <div>
+              <a href="" class="me-4">
+                <i class="bi bi-instagram fs-4"></i>
+              </a>
+              <a href="" class="me-4">
+                <i class="bi bi-facebook fs-4"></i>
+              </a>
+              <a href="" class="me-4">
+                <i class="bi bi-twitter-x fs-4"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+    
+        <section>
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6><strong>LUNABHUMI</strong></h6>
+    
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6>Our payment options:</h6>
+                <p class="payment-options">
+                  <img src="images/payment/visa.jpg" alt="Visa logo">
+                  <img src="images/payment/mastercard.jpg" alt="mastercard logo">
+                  <img src="images/payment/paypal.png" alt="paypal logo">
+                </p>
+                <h6>Our partners:</h6>
+                <p class="payment-options">
+                  <img src="images/partners/dpd.png" alt="DPD logo">
+                  <img src="images/partners/omniva.png" alt="Omniva logo">
+    
+                </p>
+              </div>
+    
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6>Useful links</h6>
+                <p><a href="contact.html">Contact</a></p>
+                <p><a href="shop.html">Shop</a></p>
+                <p><a href="blog.html">Blog</a></p>
+              </div>
+    
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    
+                <a href="contact.html"><h6>Contact</h6></a>
+                <p><i class="bi bi-geo-alt"></i> Tallinn, Sõpruse pst 182, 13424</p>
+                <p><i class="bi bi-envelope"></i> info@lunabhumi.com</p>
+                <p><i class="bi bi-telephone"></i> +372 123 456 789</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2025 Copyright: LUNABHUMI
+        </div>
+    
+    </footer>
 </body>
 </html>

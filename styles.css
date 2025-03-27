@@ -1,15 +1,67 @@
+html {
+    overflow-y: scroll;
+}
+
+.banner {
+    background-color: #c9d697;
+}
+
+.banner p {
+    font-size: 12px;
+    line-height: 4px;
+}
+
 .carousel-item img {
     width: 100%;
-    height: 800px;
+    height: 740px;
     object-fit: cover;
 }
 
-.video-section {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+.payment-options img{
+    height: 24px;
+    object-fit:scale-down;
 }
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+
+/*Main page card images*/
+.card-img-top-main {
+    height: 400px;
+    object-fit: cover;
+}
+
+.favorite-box {
+    background: white;
+    padding: 8px;
+}
+
+.card-shop-item {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.card p {
+    font-size: 14px;
+    text-align: justify;
+    border-radius: 0;
+}
+.card-shop-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+
+/*Blog videos*/
 
 .background-video {
     position: absolute;
@@ -30,14 +82,45 @@
     background: rgba(0, 0, 0, 0.5); /* Dark overlay */
 }
 
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.overlay-article { 
+    transition: background-color 0.3s ease;
     color: white;
-    text-align: center;
-    z-index: 2;
+}
+
+.video {
+    position: relative;
+}
+
+.video:hover .overlay-article {
+    background-color: transparent;
+}
+
+/*Log in*/
+.log-in-card {
+    max-width: 600px;
+}
+
+
+
+
+/*Main page blog cards*/
+
+i {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-link {
+    color: inherit !important; /* Force override Bootstrap styles */
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
 }
 
 h1 {
@@ -46,5 +129,6 @@ h1 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
+
