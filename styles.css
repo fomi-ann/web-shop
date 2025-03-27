@@ -113,13 +113,14 @@ i {
     color: black;
 }
 
-a {
-    text-decoration: none;
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none !important;
     color: inherit !important;
 }
 
+
 .page-link {
-    color: inherit !important; /* Force override Bootstrap styles */
+    color: inherit !important;
     text-decoration: none !important;
 }
 
