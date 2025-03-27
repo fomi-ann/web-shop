@@ -84,7 +84,7 @@ html {
 
 .overlay-article { 
     transition: background-color 0.3s ease;
-    color: white;
+    color: white !important;
 }
 
 .video {
